@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div>
+            <p>For example, say your developers have come up with the perfect amortization program and you want to install it on the workgroup server for other systems to remotely mount and use. Because this is a third-party or custom application, the logical place for it is in <span>/usr/local/appname</span>, possibly with a link to the program binary in the <span>/usr/local/bin</span> directory (because that's in the path).</p>
+        </div>
+        <div class="alert">
+            <span class="alerts">ALERT</span><p class="tip">If given a choice between putting the software package bigprog in the <span>/usr/local/bigprog</span> section and the <span>/opt/bigprog</span> section, it's hard to choose. Read any relevant exam question closely--the main difference being that the <span>/opt</span> section is not considered to be sharable, whereas the <span>/usr</span> section is often shared and mounted by client systems.</p>
+        </div>
+        <h1>File Management Commands</h1>
+        <div>
+            <p>A major section of the 101 exam is dedicated to how to run commands properly with the right options and arguments. As a good sysadmin, you'll be expected to know how to create, delete, edit, set permissions on, display, move, copy, and determine the type of files and programs.</p>
+        </div>
+        <div class="alert">
+            <span class="alerts">ALERT</span><p class="tip">You must be able to pick proper and working commands out of lists of possibilities, type in appropriate strings in fill-in-the-blank boxes, and in general show that you've run the programs and utilities in question.</p>
+        </div>
+        <h1>Tips for working with Linux files</h1>
+        <div>
+            <p>Because most users and sysadmins come from a Windows or other OS background, a quick set of recommendations for the less-experienced can be of help here:</p>
+        </div>
+        <div class="carrot">
+            <span>> Hidden files aren't really hidden -</span><p>They just begin with a ., such as the <span>.bashrc</span> and <span>.bash_profile</span> files. These are not viewable by normal users with conventional commands and switches and aren't deleted by commands such as <span>rm -f *.*.</span></p>
+        </div>
+        <div class="carrot">
+            <span>> Filenames can contain multiple periods or no period characters -</span><p>The filenames <span>this.is.a.long.file</span> and <span>thisisalongfile</span> are perfectly reasonable and possible.</p>
+        </div>
+        <div class="carrot">
+            <span>> Spaces in filenames look nice, but are a pain to type - </span><p>Use an <span>_</span> or a <span>-</span> instead of spaces because it's neater and easier than prefixing all spaces with a <span>\</span>. (To display a space in a filename, the system shows a space prefixes with a backslash.)</p>
+        </div>
+    </main>
+</body>
+</html>
